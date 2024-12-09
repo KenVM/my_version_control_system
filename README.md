@@ -16,12 +16,12 @@ git init initializes a git repository by creating a .git directory. This directo
     ├── heads
     └── tags
 </pre>
-\
+
 - config: is a text file that contains your git configuration for the current repo. It contains basic settings for your repo like the author, filemode, etc.
 - HEAD: contains the current head of the repo. This is pointing to the refs/heads folder
 - hooks: contain any scripts that can be run before/after git does anything, in our project, we will not be adding this folder
 - objects: contain the git objects, that is, the data bout the files, commits, etc. 
-- refs: these store references (pointers) to branches and tags
+- refs: these store references (pointers) to branches and tags\
 
 
 **2. Read a blob object**
