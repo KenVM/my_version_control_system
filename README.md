@@ -11,8 +11,8 @@ git init initializes a git repository by creating a .git directory. This directo
 ├──hooks
 ├──objects
 └── refs
-	├── heads
-	└── tags
+    ├── heads
+    └── tags
 </pre>
 - config: is a text file that contains your git configuration for the current repo. It contains basic settings for your repo like the author, filemode, etc.
 - HEAD: contains the current head of the repo. This is pointing to the refs/heads folder
