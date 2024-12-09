@@ -1,18 +1,18 @@
 # my_version_control_system
 
 In this project we are creating our own version control system using C. We'll perform this project in 7 stages:
-
+<pre>
 **1. Initialize the .git directory**
 git init initializes a git repository by creating a .git directory. This directory contains:
 
-.git
-	config
-	HEAD
-	hooks
-	objects
-	refs
-		heads
-		tags
+.git\
+├──config\
+├──HEAD\
+├──hooks\
+├──objects\
+└── refs\
+	├── heads\
+	└── tags
 
 - config: is a text file that contains your git configuration for the current repo. It contains basic settings for your repo like the author, filemode, etc.
 - HEAD: contains the current head of the repo. This is pointing to the refs/heads folder
@@ -38,4 +38,4 @@ git init initializes a git repository by creating a .git directory. This directo
 
 **7. Clone a repository**
 
-
+</pre>
