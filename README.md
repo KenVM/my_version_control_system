@@ -5,7 +5,7 @@ In this project we are creating our own version control system using C. We'll pe
 **1. Initialize the .git directory**\
 \
 git init initializes a git repository by creating a .git directory. This directory contains:
-\
+
 <pre>
 .git
 ├──config
