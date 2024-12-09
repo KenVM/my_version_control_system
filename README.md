@@ -21,7 +21,7 @@ git init initializes a git repository by creating a .git directory. This directo
 - HEAD: contains the current head of the repo. This is pointing to the refs/heads folder
 - hooks: contain any scripts that can be run before/after git does anything, in our project, we will not be adding this folder
 - objects: contain the git objects, that is, the data bout the files, commits, etc. 
-- refs: these store references (pointers) to branches and tags\
+- refs: these store references (pointers) to branches and tags
 
 
 **2. Read a blob object**
